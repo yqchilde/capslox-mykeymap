@@ -1,0 +1,2 @@
+# capslox-mykeymap
+基于mykeymap实现替代capslox软件部分功能的配置
