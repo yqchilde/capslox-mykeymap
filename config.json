@@ -9,6 +9,13 @@
       "delay": 0,
       "disableAt": "",
       "hotkeys": {
+        "*,": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 8,
+            "ahkCode": "SelectCurrentWord()"
+          }
+        ],
         "*-": [
           {
             "windowGroupID": 0,
@@ -119,6 +126,14 @@
             "actionTypeID": 7,
             "comment": "label:44",
             "actionValueID": 7
+          }
+        ],
+        "*backspace": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 Delete",
+            "remapToKey": "Delete"
           }
         ],
         "*d": [
