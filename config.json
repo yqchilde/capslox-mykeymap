@@ -136,6 +136,14 @@
             "remapToKey": "Delete"
           }
         ],
+        "*c": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 6,
+            "comment": "实现类似Mac上Ctrl+C强制中断当前进程的逻辑",
+            "keysToSend": "^c"
+          }
+        ],
         "*d": [
           {
             "windowGroupID": 0,
