@@ -232,12 +232,28 @@
             "actionValueID": 16
           }
         ],
+        "*o": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 7,
+            "comment": "label:51",
+            "actionValueID": 14
+          }
+        ],
         "*p": [
           {
             "windowGroupID": 0,
             "actionTypeID": 7,
             "comment": "label:42",
             "actionValueID": 5
+          }
+        ],
+        "*r": [
+          {
+            "windowGroupID": 0,
+            "actionTypeID": 5,
+            "comment": "重映射为 Delete",
+            "remapToKey": "Delete"
           }
         ],
         "*s": [
