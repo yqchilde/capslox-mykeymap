@@ -12,3 +12,10 @@ SelectCurrentWord() {
 
 #Space::SendInput "+{Space}"  ; 将win+space换成shift+space，前提是要在utils里修改唤出的快捷键
 +Space::return                ; 屏蔽原 Shift+Space（可选）
+
+; 交换 Ctrl+Tab 和 Alt+Tab
+^Tab::Send "!{Tab}"
+!Tab::Send "^{Tab}"
+
+; 将 Win+Ctrl+L 映射到 Alt+Ctrl+L，用于在goland(jetbrains系列软件)中使用format
+#^l::Send "^!+f"
